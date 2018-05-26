@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>客户端数据库</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="jquery-1.4.2.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div class="center">
+   <div class="main">
+   	用户名：<input type="text" id="txtusername" name=""><br/>
+   	密 码：<input type="password" id="txtPwd" name="">
+   	<input type="button" value="提交" onclick="Add()" name=""><br/>
+   	用户名:<input type="text" id="reusername" name="">
+   	<input type="button" value="查询" onclick="Sel()" name=""><br/>
+   	用户名:<input type="text" id="upName" name=""  ><br/>
+    新密码:<input type="text" id="upPwd" name=""  >
+   	<input type="button" value="修改" name="" onclick="Update()"><br/>
+   	用户名:<input type="text" id="deName" name=""  >
+   	<input type="button" value="删除" name="" onclick="Del()">
+   <div id="dCon"></div>
+</div>
+</center>
+</body>
+</html>
